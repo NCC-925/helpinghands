@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom,violet,lightblue )
+    /*background:linear-gradient(to right,#b92b27,#1565c0); */
+    }
+    .box{
+    width:500px;
+    padding:40px;
+    position: absolute;
+    top:10%;
+    left:30%;
+    background:linear-gradient(to bottom right,#c9e78f 0%,#d8a0e7 100%);
+    ;
+    text-align: center;
+    transition: 0.25s;
+    margin-top:100px;
+    }
+    
+    .box input[type="text"],
+    .box input[type="password"],
+    .box input[type="email"]
+    {
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #33086b;
+    padding:10px 10px;
+    width:250px;
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition:0.25s;
+    }
+    .box h1
+    {
+    color: white;
+    text-transform: uppercase;
+    font-weight:500;
+    }
+    .box input[type="text"]:focus,
+    .box input[type="password"]:focus,
+    .box input[type="email"]:focus
+    {
+    width:300px;
+    border-color:#1ddd3d
+    }
+    .box input[type="submit"]
+    {
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #f32a2a;
+    padding:14px 40px;
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition:0.25s;
+    cursor: pointer;
+    }
+    .box input[type="submit"]:hover
+{
+background:rgb(80, 8, 212)
+}
+    .header {
+        width: 30%;
+        margin: 50px auto 0px;
+        color: white;
+        background: pink;
+        text-align: center;
+        border: 1px solid  #B0C4DE;
+        border-bottom: none;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+      }
+   
+      .box select[name="donate"]
+      {
+      border:0;
+      background: none;
+      display: block;
+      margin:20px auto;
+      text-align: center;
+      border:2px solid #b9966d;
+      padding:10px 10px;
+      width:250px;
+      outline: none;
+      color: white;
+      border-radius:24px;
+      transition:0.25s;
+      }
+      .box textarea{
+          width: 400px;
+          height: 120px;
+          border: 2px solid #be792a;
+          background:#c7a284;
+          border-radius: 12px;
+          padding: 5px;
+          font-family:Tahoma,sans-serif; 
+
+      }
+      .box textarea::-webkit-input-placeholder{
+          columns: #000000;
+      }
+     
+
+    
